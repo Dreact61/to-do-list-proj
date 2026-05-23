@@ -26,8 +26,8 @@
 ## Как запустить
 
 ```bash
-git clone https://github.com/Dreact61/todo-list.git
-cd todo-list
+git clone https://github.com/Dreact61/to-do-list-proj.git
+cd to-do-list-proj
 npm install
 npm run dev
 ```
