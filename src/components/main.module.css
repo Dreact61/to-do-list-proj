@@ -1,0 +1,79 @@
+.todomain, .addSection, .editSection {
+    box-shadow: 0 4px 12px 4px rgba(66, 189, 152, 0.15);
+    border-radius: 12px;
+    border: 2px ridge #c4ee50;
+    padding: 1rem;
+    gap: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    align-self: stretch;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.todomain > h2,
+.addSection > h2,
+.editSection > h2 {
+    margin: 0;
+}
+
+.btn {
+    width: 10rem;
+    height: 2.25rem;
+    border: 1px solid #8fa24a;
+    border-radius: 8px;
+    background-color: #acad69;
+    color: #302f2f;
+    cursor: pointer;
+}
+
+.addSection > label {
+    text-align: left;
+    font-weight: 500;
+}
+.addSection > input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.5rem 0.75rem;
+    border: 1px solid #8fa24a;
+    border-radius: 8px;
+}
+
+.actionsRow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+}
+
+.tasktab, .editTab {
+    border: 1px solid #666;
+    border-radius: 1rem;
+    padding: 1rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 100%;
+    min-height: 120px;
+    gap: 1rem;
+}
+
+.btn:disabled {
+    cursor: not-allowed;
+    background-color: #555555;
+    border-color: #302f2f;
+}
+.btn:active {
+    background-color: #b4a02d;
+}
+.tasktab > *, .editTab > * {
+    display: flex;
+    width: 100%;
+    border: 1px dotted #666;
+    padding: 0.2rem;
+    flex-direction: column;
+}

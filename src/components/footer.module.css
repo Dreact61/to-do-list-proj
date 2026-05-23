@@ -1,0 +1,29 @@
+.footr {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    border-top: 1px ridge #666;
+    padding: 1rem;
+}
+.btns {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    height: 130%;
+}
+.btns > * {
+    width: 7rem;
+    height: 2rem;
+    transition: 0.3s;
+    cursor: pointer;
+    background-color: #959c569c;
+    border-color: #959c569c;
+}
+.btns > *:hover {
+    border-radius: 0.5rem;
+    background-color: #799662;
+    color: white;
+}
