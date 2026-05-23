@@ -5,9 +5,9 @@
 
 ## Скриншот
 
-![Главный экран](public/screenshots/todo.png)
-![Добавление заметок](public/screenshots/todo.png)
-![Редактор заметок](public/screenshots/todo.png)
+![Главный экран](public/image1.png)
+![Добавление заметок](public/image2.png)
+![Редактор заметок](public/image3.png)
 
 ## Функционал
 
