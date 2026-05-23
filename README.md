@@ -1,16 +1,43 @@
-# React + Vite
+# To-Do List
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Небольшой SPA-проект на React для создания и управления списком задач.  
+Проект демонстрирует работу с состоянием, пользовательским вводом и сохранением данных в браузере.
 
-Currently, two official plugins are available:
+## Скриншот
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+![Главный экран](public/screenshots/todo.png)
+![Добавление заметок](public/screenshots/todo.png)
+![Редактор заметок](public/screenshots/todo.png)
 
-## React Compiler
+## Функционал
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Добавление новых задач.
+- Удаление задач.
+- Сохранение заметок в `localStorage`.
+- Автоматическое восстановление списка после обновления страницы.
+- Простой и понятный интерфейс.
 
-## Expanding the ESLint configuration
+## Стек
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.
+- Vite.
+- LocalStorage.
+
+## Как запустить
+
+```bash
+git clone https://github.com/Dreact61/todo-list.git
+cd todo-list
+npm install
+npm run dev
+```
+
+## Что реализовано
+
+В проекте показана базовая логика SPA-приложения: работа со списком задач, изменение состояния, сохранение данных между перезагрузками и отображение актуального интерфейса без серверной части.
+
+## Планы по развитию
+
+- Добавить фильтры задач.
+- Добавить дату создания задачи.
+- Улучшить визуальное оформление.
